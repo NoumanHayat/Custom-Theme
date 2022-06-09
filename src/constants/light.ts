@@ -10,15 +10,18 @@ import {THEME as commonTheme} from './theme';
 
 export const COLORS: ThemeColors = {
   // default text color
-  text: '#252F40',
-
+  text: '#FBFBFC',
+  // opposite of text color
+  contrasting: '#EDEEF6',
+  // match color
+  matching: '#030C45',
   // base colors
   /** UI color for #primary */
   primary: '#CB0C9F',
   /** UI color for #secondary */
-  secondary: '#627594', // '#8392AB',
+  secondary: '#5986CF', // '#8392AB',
   /** UI color for #tertiary */
-  tertiary: '#E8AE4C',
+  tertiary: '#EFAE40',
 
   // non-colors
   black: '#252F40',
@@ -42,16 +45,16 @@ export const COLORS: ThemeColors = {
   info: '#17C1E8',
 
   /** UI colors for navigation & card */
-  card: '#FFFFFF',
-  background: '#E9ECEF',
+  card: '#000408',
+  background: '#000408',
 
   /** UI color for shadowColor */
-  shadow: '#000000',
-  overlay: 'rgba(0,0,0,0.3)',
+  shadow: '#FFFFFF',
+  overlay: 'rgba(255,255,255,0.3)',
 
   /** UI color for input borderColor on focus */
   focus: '#E293D3',
-  input: '#252F40',
+  input: '#F3F6FA',
 
   /** UI color for switch checked/active color */
   switchOn: '#3A416F',
@@ -83,7 +86,7 @@ export const GRADIENTS: ThemeGradients = {
   success: ['#98EC2D', '#17AD37'],
   warning: ['#FBCF33', '#F53939'],
   danger: ['#FF667C', '#EA0606'],
-
+  drawer: ['#58174E', '#4A97E5'],
   light: ['#EBEFF4', '#CED4DA'],
   dark: ['#3A416F', '#141727'],
 

@@ -101,21 +101,21 @@ const DrawerContent = (
       removeClippedSubviews
       renderToHardwareTextureAndroid
       contentContainerStyle={{paddingBottom: sizes.padding}}>
-      <Block paddingHorizontal={sizes.padding}>
+      <Block paddingHorizontal={sizes.padding} >
         <Block flex={0} row align="center" marginBottom={sizes.l}>
           <Image
             radius={0}
             width={33}
             height={33}
-            color={colors.text}
+            color={colors.contrasting}
             source={assets.logo}
             marginRight={sizes.sm}
           />
           <Block>
-            <Text size={12} semibold>
+            <Text size={12} color={colors.contrasting} semibold>
               {t('app.name')}
             </Text>
-            <Text size={12} semibold>
+            <Text size={12} color={colors.contrasting} semibold>
               {t('app.native')}
             </Text>
           </Block>
@@ -147,7 +147,7 @@ const DrawerContent = (
                   color={colors[isActive ? 'white' : 'black']}
                 />
               </Block>
-              <Text p semibold={isActive} color={labelColor}>
+              <Text p semibold={isActive} color={colors.contrasting}>
                 {screen.name}
               </Text>
             </Button>
@@ -187,22 +187,22 @@ const DrawerContent = (
               radius={0}
               width={14}
               height={14}
-              color={colors.black}
+              color={colors.contrasting}
               source={assets.documentation}
             />
           </Block>
-          <Text p color={labelColor}>
+          <Text p color={colors.contrasting}>
             {t('menu.started')}
           </Text>
         </Button>
 
         <Block row justify="space-between" marginTop={sizes.sm}>
-          <Text color={labelColor}>{t('darkMode')}</Text>
+          <Text color={colors.contrasting}>{t('darkMode')}</Text>
           <Switch
             checked={isDark}
             onPress={(checked) => {
               handleIsDark(checked);
-              Alert.alert(t('pro.title'), t('pro.alert'));
+              
             }}
           />
         </Block>
@@ -216,7 +216,7 @@ export default () => {
   const {gradients} = useTheme();
 
   return (
-    <Block gradient={gradients.light}>
+    <Block gradient={gradients.drawer}>
       <Drawer.Navigator
         drawerType="slide"
         overlayColor="transparent"

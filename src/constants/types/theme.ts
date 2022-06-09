@@ -78,6 +78,8 @@ export interface IThemeProvider {
 export interface ThemeColors {
   text: ColorValue;
   primary: ColorValue;
+  contrasting: ColorValue;
+  matching: ColorValue;
   secondary: ColorValue;
   tertiary: ColorValue;
   black: ColorValue;
@@ -112,6 +114,7 @@ export interface ThemeGradients {
   secondary?: string[];
   tertiary?: string[];
   black?: string[];
+  drawer?: string[];
   white?: string[];
   light?: string[];
   dark?: string[];
