@@ -25,48 +25,7 @@ const Pro = () => {
       style={{flex: 1}}>
       <Block safe justify="center">
         <Block card flex={0} padding={sizes.sm} marginBottom={sizes.sm}>
-          <Text h4 center semibold marginBottom={sizes.sm}>
-            {t('pro.title')}
-          </Text>
-
-          <Text marginBottom={sizes.padding}>{t('pro.appTemplate')}</Text>
-
-          <Text semibold>{t('pro.components', {count: 11})}</Text>
-          <Text semibold>{t('pro.screens', {count: 18})}</Text>
-          <Text semibold>{t('pro.support')}</Text>
-
-          <Text marginVertical={sizes.padding}>{t('pro.saveTime')}</Text>
-
-          <Text>{t('pro.takeAdvantage')}</Text>
-
-          <Block
-            row
-            flex={0}
-            justify="space-evenly"
-            marginVertical={sizes.padding}>
-            <Image
-              source={assets.ios}
-              color={colors.icon}
-              style={{height: 38, width: 82}}
-            />
-            <Image
-              source={assets.android}
-              color={colors.icon}
-              style={{height: 38, width: 140}}
-            />
-          </Block>
-
-          <Button
-            gradient={gradients.primary}
-            onPress={() =>
-              handleWebLink(
-                'https://www.creative-tim.com/product/soft-ui-pro-react-native',
-              )
-            }>
-            <Text white bold transform="uppercase">
-              {t('pro.buyNow')}
-            </Text>
-          </Button>
+          <Text>Under Process</Text>
         </Block>
       </Block>
     </Image>
