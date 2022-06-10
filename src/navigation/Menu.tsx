@@ -18,7 +18,7 @@ const Drawer = createDrawerNavigator();
 /* drawer menu screens navigation */
 const ScreensStack = () => {
   const {colors} = useTheme();
-  const isDrawerOpen = useIsDrawerOpen();
+  const isDrawerOpen = useIsDrawerOpen(); 
   const animation = useRef(new Animated.Value(0)).current;
 
   const scale = animation.interpolate({
@@ -92,6 +92,7 @@ const DrawerContent = (
     {name: t('screens.settings'), to: 'Pro', icon: assets.settings},
     {name: t('screens.register'), to: 'Register', icon: assets.register},
     {name: t('screens.extra'), to: 'Pro', icon: assets.extras},
+    {name: t('screens.message'), to: 'Profile', icon: assets.extras},
   ];
 
   return (
