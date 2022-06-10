@@ -8,7 +8,9 @@ import {useTheme} from '../hooks/';
 import {Block, Button, Input, Image, Switch, Modal, Text} from '../components/';
 
 // buttons example
-const Buttons = () => {
+const Buttons = (props) => {
+  const natigation=props.prop.navigation;
+  
   const [showModal, setModal] = useState(false);
   const [quantity, setQuantity] = useState('01');
   const {assets, colors, gradients, sizes} = useTheme();
@@ -19,7 +21,7 @@ const Buttons = () => {
         Buttons
       </Text>
       <Block>
-        <Button flex={1} gradient={gradients.primary} marginBottom={sizes.base}>
+        <Button flex={1} gradient={gradients.primary} marginBottom={sizes.base} onPress={() =>{natigation.navigate("Message");}} >
           <Text white bold transform="uppercase">
             Primary
           </Text>
@@ -527,7 +529,7 @@ const Gallery = () => {
   );
 };
 
-const Components = () => {
+const Components = (props) => {
   const {assets, sizes} = useTheme();
   const navigation = useNavigation();
   const headerHeight = useHeaderHeight();
@@ -553,7 +555,7 @@ const Components = () => {
         showsVerticalScrollIndicator={false}
         contentContainerStyle={{paddingVertical: sizes.padding}}>
         <Block>
-          <Buttons />
+          <Buttons prop={props}/>
           <Typography />
           <Inputs />
           <Switches />

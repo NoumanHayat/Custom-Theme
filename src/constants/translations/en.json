@@ -1,4 +1,5 @@
 {
+  "creater": {"name": "Nouman Hayat", "loucation": "Islamabad, Pakistan"},
   "common": {
     "appDetails": "App Details",
     "appName": "Nouman's App",
@@ -56,16 +57,15 @@
   },
   "darkMode": "Dark Mode",
   "screens": {
-
     "home": "Home",
     "components": "Components",
     "articles": "Articles",
     "rental": "Rental",
     "profile": "Profile",
-    "settings": "Settings", 
+    "settings": "Settings",
     "register": "Create account",
     "extra": "Extra - Automotive",
-    "message":"Details Screen"
+    "message": "Details Screen"
   },
   "navigation": {
     "home": "NH UI",
@@ -85,7 +85,7 @@
     "login": "Login",
     "extra": "Automotive",
     "shopping": "Shopping Cart",
-    "message":"Message Screen"
+    "message": "Message Screen"
   },
   "menu": {
     "started": "Getting Started",
