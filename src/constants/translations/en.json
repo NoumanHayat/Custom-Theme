@@ -1,5 +1,10 @@
 {
-  "creater": {"name": "Nouman Hayat", "loucation": "Islamabad, Pakistan"},
+  "creater": {
+    "name": "Nouman Hayat",
+    "loucation": "Islamabad, Pakistan",
+    "introduction": "I am student of comsats university. I love programming and I love to create new things. I created this theme just for fun i hope this will be helpful. ",
+    "introduction_2": "This theme is avalible on gitHub and  soon i will upload complete details of this theme on my website. "
+  },
   "common": {
     "appDetails": "App Details",
     "appName": "Nouman's App",
@@ -69,7 +74,7 @@
   },
   "navigation": {
     "home": "NH UI",
-    "components": "Components", 
+    "components": "Components",
     "articles": "NH UI",
     "rentals": "NH UI",
     "rental": "Best Deal",
