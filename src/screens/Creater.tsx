@@ -36,7 +36,7 @@ const Pro = () => {
         <Text semibold marginBottom={sizes.s} marginTop={sizes.sm}>{t('creater.introduction')}</Text>
         <Text semibold marginBottom={sizes.s} marginTop={sizes.sm}>{t('creater.introduction_2')}</Text>
         <Block padding={sizes.xl}>
-          <Button gradient={gradients.primary} onPress={() =>}>
+          <Button gradient={gradients.primary} onPress={() =>alert("Under Process")}>
             <Text p color={colors.matching}>Context US</Text>
           </Button>
         </Block>
