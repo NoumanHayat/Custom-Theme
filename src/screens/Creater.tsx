@@ -27,7 +27,8 @@ const Pro = () => {
             padding={sizes.sm}
             paddingBottom={sizes.l}
             radius={360}
-            source={assets.background} />
+            source={assets.creater} />
+
       </Block>
     </Block>
   );

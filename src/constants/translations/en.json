@@ -65,11 +65,11 @@
     "settings": "Settings",
     "register": "Create account",
     "extra": "Extra - Automotive",
-    "message": "Details Screen"
+    "creater": "Creater"
   },
   "navigation": {
     "home": "NH UI",
-    "components": "Components",
+    "components": "Components", 
     "articles": "NH UI",
     "rentals": "NH UI",
     "rental": "Best Deal",
@@ -85,7 +85,7 @@
     "login": "Login",
     "extra": "Automotive",
     "shopping": "Shopping Cart",
-    "message": "Message Screen"
+    "creater": "Theme Creater"
   },
   "menu": {
     "started": "Getting Started",

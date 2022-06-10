@@ -108,8 +108,10 @@ export const ASSETS: ThemeAssets = {
   x5: require('../assets/images/x5.png'),
   gle: require('../assets/images/gle.png'),
   tesla: require('../assets/images/tesla.png'),
+  //creater Photo
+  creater: require('../assets/images/creater.jpg'),
 };
-
+ 
 export const FONTS: ThemeFonts = {
   // based on font size
   text: 'OpenSans-Regular',
