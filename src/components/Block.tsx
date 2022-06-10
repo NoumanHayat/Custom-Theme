@@ -121,7 +121,7 @@ const Block = (props: IBlockProps) => {
         borderRadius: sizes.cardRadius,
         padding: sizes.cardPadding,
         shadowColor: colors.shadow,
-        shadowOffset: {
+        shadowOffset: { 
           width: sizes.shadowOffsetWidth,
           height: sizes.shadowOffsetHeight,
         },

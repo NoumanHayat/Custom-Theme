@@ -25,7 +25,7 @@ const Article = ({
   // render card for Newest & Fashion
   if (category?.id !== 1) {
     return (
-      <TouchableWithoutFeedback onPress={onPress}>
+      <TouchableWithoutFeedback onPress={()=>alert("Under Process")}>
         <Block card padding={sizes.sm} marginTop={sizes.sm}>
           <Image height={170} resizeMode="cover" source={{uri: image}} />
           {/* article category */}
@@ -99,7 +99,7 @@ const Article = ({
 
   // render card for Popular
   return (
-    <TouchableWithoutFeedback onPress={onPress}>
+    <TouchableWithoutFeedback onPress={()=>alert("Under Process")}>
       <Block card white padding={0} marginTop={sizes.sm}>
         <Image
           background

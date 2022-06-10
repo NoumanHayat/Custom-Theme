@@ -1,7 +1,7 @@
 import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
 
-import {Articles, Components, Home, Profile, Register, Pro,Creater} from '../screens';
+import {Articles, Components, Home, Profile, Register, Pro,Creater,ButtonExample} from '../screens';
 import {useScreenOptions, useTranslation} from '../hooks';
 
 const Stack = createStackNavigator();
@@ -13,7 +13,13 @@ export default () => {
   return (
     <Stack.Navigator screenOptions={screenOptions.stack}> 
      <Stack.Screen
-        name="Creater"
+        name="ButtonExample"
+        component={ButtonExample}
+        options={{title: t('navigation.buttonExample')}}
+
+      />
+     <Stack.Screen
+        name="Creater" 
         component={Creater}
         options={{title: t('navigation.creater')}}
 

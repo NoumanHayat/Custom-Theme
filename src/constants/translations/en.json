@@ -70,7 +70,8 @@
     "settings": "Settings",
     "register": "Create account",
     "extra": "Extra - Automotive",
-    "creater": "Creater"
+    "creater": "Creater",
+    "buttonExample":"ButtonExample"
   },
   "navigation": {
     "home": "NH UI",
@@ -85,12 +86,13 @@
     "notifications": "Notifications",
     "agreement": "User Agreement",
     "about": "About",
-    "privacy": "Privacy",
+    "privacy": "Privacy", 
     "register": "Register",
     "login": "Login",
     "extra": "Automotive",
     "shopping": "Shopping Cart",
-    "creater": "Theme Creater"
+    "creater": "Theme Creater",
+    "buttonExample":"Button's Example"
   },
   "menu": {
     "started": "Getting Started",
@@ -106,7 +108,7 @@
     "subtitle": "Register with"
   },
   "profile": {
-    "title": "Profile",
+    "title": "Profile", 
     "posts": "Posts",
     "followers": "Followers",
     "following": "Following",

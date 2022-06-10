@@ -93,6 +93,7 @@ const DrawerContent = (
     {name: t('screens.register'), to: 'Register', icon: assets.register},
     {name: t('screens.extra'), to: 'Pro', icon: assets.extras},
     {name: t('screens.creater'), to: 'Creater', icon: assets.extras},
+    {name: t('screens.buttonExample'), to: 'ButtonExample', icon: assets.extras},
   ]; 
 
   return (

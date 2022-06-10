@@ -22,7 +22,7 @@ const Buttons = (props) => {
       </Text>
       <Block>
         <Button flex={1} gradient={gradients.primary} marginBottom={sizes.base} onPress={() =>{natigation.navigate("Creater");}} >
-          <Text white bold transform="uppercase">
+          <Text white bold transform="uppercase"> 
             Primary
           </Text>
         </Button>

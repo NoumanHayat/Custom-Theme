@@ -5,18 +5,18 @@ import {useData, useTheme} from '../hooks/';
 import {IArticle, ICategory} from '../constants/types';
 import {Block, Button, Article, Text} from '../components/';
 
-const Articles = () => {
+const Articles = () => { 
   const data = useData();
   const [selected, setSelected] = useState<ICategory>();
   const [articles, setArticles] = useState<IArticle[]>([]);
   const [categories, setCategories] = useState<ICategory[]>([]);
   const {colors, gradients, sizes} = useTheme();
 
-  // init articles
+  // init articles 
   useEffect(() => {
     setArticles(data?.articles);
-    setCategories(data?.categories);
-    setSelected(data?.categories[0]);
+    setCategories(data?.categories); 
+    setSelected(data?.categories[0]); 
   }, [data.articles, data.categories]);
 
   // update articles on category change
