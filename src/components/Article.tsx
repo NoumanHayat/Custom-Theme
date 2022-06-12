@@ -16,7 +16,7 @@ const Article = ({
   rating,
   location,
   timestamp,
-  user,
+  user, 
   onPress,
 }: IArticle) => {
   const {t} = useTranslation();

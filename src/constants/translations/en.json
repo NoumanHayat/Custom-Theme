@@ -71,7 +71,9 @@
     "register": "Create account",
     "extra": "Extra - Automotive",
     "creater": "Creater",
-    "buttonExample":"ButtonExample"
+    "buttonExample":"ButtonExample",
+    "cardExample":"Card's Example",
+    "inputExample":"Input's Example"
   },
   "navigation": {
     "home": "NH UI",
@@ -92,7 +94,9 @@
     "extra": "Automotive",
     "shopping": "Shopping Cart",
     "creater": "Theme Creater",
-    "buttonExample":"Button's Example"
+    "buttonExample":"Button's Example",
+    "cardExample":"CardExample",
+    "inputExample":"InputExample"
   },
   "menu": {
     "started": "Getting Started",
